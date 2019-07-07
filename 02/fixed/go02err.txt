@@ -1,0 +1,7 @@
+123s–Ú‚Ì
+
+    if ( c == un_col && lib == 0 && board[tz+dir4[i]] ) {
+
+‚ªŠÔˆá‚¢‚Å³‚µ‚­‚Í
+
+    if ( c == un_col && lib == 1 && board[tz+dir4[i]] ) {

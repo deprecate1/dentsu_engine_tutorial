@@ -1,0 +1,7 @@
+33s–Ú‚Ì
+
+    for (x=0; x<=B_SIZE; x++) {
+
+‚ªŠÔˆá‚¢‚Å³‚µ‚­‚Í
+
+    for (x=0; x<B_SIZE; x++) {

@@ -1,0 +1,14 @@
+123行目の
+
+//if ( wall + mycol_safe == 4                            ) return 3; // eye
+
+のコメントを外すと「眼」に打たなくなります。
+
+  if ( wall + mycol_safe == 4                            ) return 3; // eye
+
+
+また190行目の
+
+  srand( (unsigned)time( NULL ) );
+
+コメントを外すと毎回違った乱数を生成します。
