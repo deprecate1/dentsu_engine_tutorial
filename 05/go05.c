@@ -178,7 +178,7 @@ int count_score(int turn_color)
     mk[1] = mk[2] = 0;  
     for (i=0;i<4;i++) mk[ board[z+dir4[i]] ]++;
     if ( mk[1] && mk[2]==0 ) black_area++;
-    if ( mk[2] && mk[1]==0 ) white_area--;
+    if ( mk[2] && mk[1]==0 ) white_area++;
   }
  
   black_sum = kind[1] + black_area;
