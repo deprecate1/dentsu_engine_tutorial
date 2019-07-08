@@ -120,7 +120,7 @@ int put_stone(int tz, int color)
   for (i=0;i<4;i++) {
     int lib = around[i][0];
     int c   = around[i][2];
-    if ( c == un_col && lib == 0 && board[tz+dir4[i]] ) {
+    if ( c == un_col && lib == 1 && board[tz+dir4[i]] ) {
       take_stone(tz+dir4[i], un_col);
     }
   }
