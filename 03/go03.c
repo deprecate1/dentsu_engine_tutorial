@@ -187,7 +187,7 @@ int main()
   int color = 1;
   int z;
 
-  srand( (unsigned)time( NULL ) );
+//srand( (unsigned)time( NULL ) );
   for (;;) {
     z = play_one_move(color);
     printf("moves=%4d, color=%d, z=%d\n",moves, color, get81(z));

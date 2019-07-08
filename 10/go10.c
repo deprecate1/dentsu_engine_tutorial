@@ -941,6 +941,7 @@ int main()
   int x,y,z,ax,count;
 
   srand( (unsigned)time( NULL ) );
+//srand( 0 );  // rand() generates same random number.
   init_board();
   expand_pattern3x3();
 

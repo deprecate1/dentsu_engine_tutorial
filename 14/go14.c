@@ -917,7 +917,7 @@ void gtp_loop()
 
 int main()
 {
-  srand( (unsigned)time( NULL ) );
+//srand( (unsigned)time( NULL ) );
   init_board();
   make_hashboard();
 
