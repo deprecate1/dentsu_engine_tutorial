@@ -738,7 +738,7 @@ void gtp_loop()
 
 int main()
 {
-//srand( (unsigned)time( NULL ) );
+  srand( (unsigned)time( NULL ) );
   init_board();
 
   if ( 0 ) { selfplay(); return 0; }

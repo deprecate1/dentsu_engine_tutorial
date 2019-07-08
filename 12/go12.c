@@ -948,7 +948,7 @@ void test_3kou()
 
 int main()
 {
-//srand( (unsigned)time( NULL ) );
+  srand( (unsigned)time( NULL ) );
   init_board();
   make_hashboard();
 
