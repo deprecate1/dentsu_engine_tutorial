@@ -53,7 +53,8 @@ RAVE优化，zobrist hash，对杀剧烈程度表示，棋子强弱表示（可�
 
 
 
-不足之处是没有[alpha-beta](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)剪枝优化搜索树，有兴趣的同学可以研究[pachi](https://github.com/pasky/pachi)源码
+
+不足之处是没有[alpha-beta](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)剪枝优化搜索树（论文中有描述），有兴趣的同学可以研究[pachi](https://github.com/pasky/pachi)源码
 
 
 
