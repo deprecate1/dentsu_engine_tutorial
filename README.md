@@ -47,8 +47,14 @@ RAVE (go11.c) is strongest.
 This samples are for UEC Computer Go Workshop at August 2015.
 
 
-如果时间允许，这15课会写个教程（也许没必要，因为代码很容易理解）：主要讲了mcts,uct(ucb1)算法，简单模式识别，RAVE优化。
+如果时间允许，这15课会写个教程（也许没必要，因为代码很容易理解）：主要讲了mcts,uct(ucb1)算法，简单模式识别，
+
+RAVE优化，zobrist hash，对杀剧烈程度表示，棋子强弱表示（可以参考实现形势判断）。
+
+
+
 不足之处是没有[alpha-beta](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)剪枝优化搜索树，有兴趣的同学可以研究[pachi](https://github.com/pasky/pachi)源码
+
 
 
 QQ群：732665928，非技术勿聊
